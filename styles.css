@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; /* Color de fondo de la página */
+}
+
+header {
+    background-color: #E0B0FF; /* Color de fondo del header */
+    color: black; /* Color del texto principal del header */
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 7px solid #ffffff ;
+    border-top: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border-bottom: 14px solid #ffffff;
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-size: 20px;
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    color: black; /* Color de los enlaces de navegación */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    color: black; /* Color del título principal */
+    margin: 10px 0;
+}
+
+h2 {
+    color: black; /* Color de los subtítulos */
+    margin: 10px 0;
+}
+
+section {
+    padding: 20px;
+    border: 7px solid white;
+}
+
+#why-choose-us {
+    background-color:  #E0B0FF; /* Fondo oscuro */
+    color: black; /* Texto en blanco */
+    text-align: center;
+    padding: 40px;
+}
+
+#services {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color:  #E0B0FF; /* Fondo oscuro para los servicios */
+    color: black; /* Texto en color dorado */
+}
+
+.service {
+    width: 45%;
+}
+
+#contact {
+    background-color: #E0B0FF; /* Fondo negro en contacto */
+    color: black; /* Texto en color dorado */
+    padding: 20px;
+    text-align: center
+}
